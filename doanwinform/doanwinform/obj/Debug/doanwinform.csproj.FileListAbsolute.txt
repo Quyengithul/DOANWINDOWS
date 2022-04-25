@@ -1,0 +1,68 @@
+C:\Users\tranb\source\repos\doanwinform\doanwinform\bin\Debug\doanwinform.exe.config
+C:\Users\tranb\source\repos\doanwinform\doanwinform\bin\Debug\doanwinform.exe
+C:\Users\tranb\source\repos\doanwinform\doanwinform\bin\Debug\doanwinform.pdb
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.AssemblyReference.cache
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.Form1.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.Properties.Resources.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.GenerateResource.cache
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.exe
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.pdb
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.donhang.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.trangchu.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.Nhapkho.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.Thongke.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.Tonkho.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.form.sanpham.resources
+C:\Users\tranb\source\repos\doanwinform\doanwinform\obj\Debug\doanwinform.DangNhap.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\bin\Debug\doanwinform.exe.config
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\bin\Debug\doanwinform.exe
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\bin\Debug\doanwinform.pdb
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.AssemblyReference.cache
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.DangNhap.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.Form1.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.donhang.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.Nhapkho.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.sanpham.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.Thongke.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.Tonkho.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.form.trangchu.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.Properties.Resources.resources
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.GenerateResource.cache
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.exe
+C:\Users\leanh\Documents\ĐH\HK4\LTWindow\Đồ án\New folder\doanwinform\doanwinform\obj\Debug\doanwinform.pdb
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\bin\Debug\doanwinform.exe.config
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\bin\Debug\doanwinform.exe
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\bin\Debug\doanwinform.pdb
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.AssemblyReference.cache
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.DangNhap.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.Form1.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.donhang.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.Nhapkho.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.sanpham.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.Thongke.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.Tonkho.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.form.trangchu.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.Properties.Resources.resources
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.GenerateResource.cache
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.exe
+C:\Users\tranb\Source\Repos\5\doanwinform\doanwinform\obj\Debug\doanwinform.pdb
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\bin\Debug\doanwinform.exe.config
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\bin\Debug\doanwinform.exe
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\bin\Debug\doanwinform.pdb
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.AssemblyReference.cache
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.DangNhap.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.Form1.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.donhang.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.Nhapkho.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.sanpham.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.Thongke.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.Tonkho.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.form.trangchu.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.Properties.Resources.resources
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.GenerateResource.cache
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.exe
+C:\Users\tranb\Source\Repos\8\doanwinform\doanwinform\obj\Debug\doanwinform.pdb

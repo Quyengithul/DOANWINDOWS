@@ -16,5 +16,13 @@ namespace doanwinform
         {
             InitializeComponent();
         }
+
+        private void btn_dang_nhap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
+            this.Close();
+        }
     }
 }

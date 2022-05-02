@@ -29,24 +29,61 @@ namespace doanwinform.form
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_doanh_thu = new System.Windows.Forms.Button();
+            this.btn_doanh_thu_thang = new System.Windows.Forms.Button();
+            this.btn_doanh_thu_nam = new System.Windows.Forms.Button();
+            this.panel_thongke = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_doanh_thu
             // 
-            this.button1.Location = new System.Drawing.Point(584, 342);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_doanh_thu.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_doanh_thu.Location = new System.Drawing.Point(45, 43);
+            this.btn_doanh_thu.Name = "btn_doanh_thu";
+            this.btn_doanh_thu.Size = new System.Drawing.Size(192, 35);
+            this.btn_doanh_thu.TabIndex = 0;
+            this.btn_doanh_thu.Text = "Doanh thu";
+            this.btn_doanh_thu.UseVisualStyleBackColor = false;
+            // 
+            // btn_doanh_thu_thang
+            // 
+            this.btn_doanh_thu_thang.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_doanh_thu_thang.Location = new System.Drawing.Point(273, 43);
+            this.btn_doanh_thu_thang.Name = "btn_doanh_thu_thang";
+            this.btn_doanh_thu_thang.Size = new System.Drawing.Size(192, 35);
+            this.btn_doanh_thu_thang.TabIndex = 1;
+            this.btn_doanh_thu_thang.Text = "Doanh thu theo tháng";
+            this.btn_doanh_thu_thang.UseVisualStyleBackColor = false;
+            // 
+            // btn_doanh_thu_nam
+            // 
+            this.btn_doanh_thu_nam.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_doanh_thu_nam.Location = new System.Drawing.Point(503, 43);
+            this.btn_doanh_thu_nam.Name = "btn_doanh_thu_nam";
+            this.btn_doanh_thu_nam.Size = new System.Drawing.Size(192, 35);
+            this.btn_doanh_thu_nam.TabIndex = 2;
+            this.btn_doanh_thu_nam.Text = "Doanh thu theo năm";
+            this.btn_doanh_thu_nam.UseVisualStyleBackColor = false;
+            // 
+            // panel_thongke
+            // 
+            this.panel_thongke.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel_thongke.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel_thongke.Location = new System.Drawing.Point(45, 97);
+            this.panel_thongke.Name = "panel_thongke";
+            this.panel_thongke.Size = new System.Drawing.Size(953, 394);
+            this.panel_thongke.TabIndex = 3;
             // 
             // Thongke
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(1039, 536);
+            this.Controls.Add(this.panel_thongke);
+            this.Controls.Add(this.btn_doanh_thu_nam);
+            this.Controls.Add(this.btn_doanh_thu_thang);
+            this.Controls.Add(this.btn_doanh_thu);
             this.Name = "Thongke";
             this.Text = "Thống kê";
             this.ResumeLayout(false);
@@ -55,6 +92,9 @@ namespace doanwinform.form
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_doanh_thu;
+        private System.Windows.Forms.Button btn_doanh_thu_thang;
+        private System.Windows.Forms.Button btn_doanh_thu_nam;
+        private System.Windows.Forms.Panel panel_thongke;
     }
 }

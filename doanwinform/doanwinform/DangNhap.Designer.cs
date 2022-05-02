@@ -68,6 +68,7 @@ namespace doanwinform
             this.btn_dang_nhap.TabIndex = 22;
             this.btn_dang_nhap.Text = "Đăng nhập";
             this.btn_dang_nhap.UseVisualStyleBackColor = true;
+            this.btn_dang_nhap.Click += new System.EventHandler(this.btn_dang_nhap_Click);
             // 
             // txb_password
             // 

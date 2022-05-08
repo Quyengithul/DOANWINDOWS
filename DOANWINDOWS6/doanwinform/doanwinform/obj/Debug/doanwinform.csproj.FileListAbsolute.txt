@@ -83,3 +83,20 @@ C:\Users\tranb\Source\Repos\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanw
 C:\Users\tranb\Source\Repos\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
 C:\Users\tranb\Source\Repos\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.exe
 C:\Users\tranb\Source\Repos\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.pdb
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\bin\Debug\doanwinform.exe.config
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\bin\Debug\doanwinform.exe
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\bin\Debug\doanwinform.pdb
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.AssemblyReference.cache
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.DangNhap.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.Form1.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.donhang.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.Nhapkho.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.sanpham.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.Thongke.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.Tonkho.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.form.trangchu.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.Properties.Resources.resources
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.GenerateResource.cache
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.csproj.CoreCompileInputs.cache
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.exe
+C:\BTLT\Lập trình Winform\do_an\do_an5\DOANWINDOWS6\doanwinform\doanwinform\obj\Debug\doanwinform.pdb

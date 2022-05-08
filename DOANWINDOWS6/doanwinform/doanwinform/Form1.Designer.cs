@@ -31,14 +31,14 @@ namespace doanwinform
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panellogo = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btn_Donhang = new System.Windows.Forms.Button();
-            this.btn_Nhapkho = new System.Windows.Forms.Button();
-            this.btn_tonkho = new System.Windows.Forms.Button();
-            this.btn_thongke = new System.Windows.Forms.Button();
-            this.btn_sanpham = new System.Windows.Forms.Button();
             this.btn_dx = new System.Windows.Forms.Button();
+            this.btn_sanpham = new System.Windows.Forms.Button();
+            this.btn_thongke = new System.Windows.Forms.Button();
+            this.btn_tonkho = new System.Windows.Forms.Button();
+            this.btn_Nhapkho = new System.Windows.Forms.Button();
+            this.btn_Donhang = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panellogo = new System.Windows.Forms.Panel();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.paneltrangchu = new System.Windows.Forms.Panel();
@@ -63,109 +63,23 @@ namespace doanwinform
             this.panelMenu.Size = new System.Drawing.Size(200, 601);
             this.panelMenu.TabIndex = 0;
             // 
-            // panellogo
+            // btn_dx
             // 
-            this.panellogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(76)))));
-            this.panellogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panellogo.Location = new System.Drawing.Point(0, 0);
-            this.panellogo.Name = "panellogo";
-            this.panellogo.Size = new System.Drawing.Size(200, 80);
-            this.panellogo.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 80);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(200, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Trang chủ";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btn_Donhang
-            // 
-            this.btn_Donhang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Donhang.FlatAppearance.BorderSize = 0;
-            this.btn_Donhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Donhang.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_Donhang.Image = ((System.Drawing.Image)(resources.GetObject("btn_Donhang.Image")));
-            this.btn_Donhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Donhang.Location = new System.Drawing.Point(0, 140);
-            this.btn_Donhang.Name = "btn_Donhang";
-            this.btn_Donhang.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Donhang.Size = new System.Drawing.Size(200, 60);
-            this.btn_Donhang.TabIndex = 1;
-            this.btn_Donhang.Text = "Đơn hàng";
-            this.btn_Donhang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Donhang.UseVisualStyleBackColor = true;
-            this.btn_Donhang.Click += new System.EventHandler(this.btn_Donhang_Click);
-            // 
-            // btn_Nhapkho
-            // 
-            this.btn_Nhapkho.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Nhapkho.FlatAppearance.BorderSize = 0;
-            this.btn_Nhapkho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Nhapkho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Nhapkho.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_Nhapkho.Image = ((System.Drawing.Image)(resources.GetObject("btn_Nhapkho.Image")));
-            this.btn_Nhapkho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Nhapkho.Location = new System.Drawing.Point(0, 200);
-            this.btn_Nhapkho.Name = "btn_Nhapkho";
-            this.btn_Nhapkho.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_Nhapkho.Size = new System.Drawing.Size(200, 60);
-            this.btn_Nhapkho.TabIndex = 2;
-            this.btn_Nhapkho.Text = "Nhập kho";
-            this.btn_Nhapkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Nhapkho.UseVisualStyleBackColor = true;
-            this.btn_Nhapkho.Click += new System.EventHandler(this.btn_Nhapkho_Click);
-            // 
-            // btn_tonkho
-            // 
-            this.btn_tonkho.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_tonkho.FlatAppearance.BorderSize = 0;
-            this.btn_tonkho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_tonkho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_tonkho.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_tonkho.Image = ((System.Drawing.Image)(resources.GetObject("btn_tonkho.Image")));
-            this.btn_tonkho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_tonkho.Location = new System.Drawing.Point(0, 260);
-            this.btn_tonkho.Name = "btn_tonkho";
-            this.btn_tonkho.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_tonkho.Size = new System.Drawing.Size(200, 60);
-            this.btn_tonkho.TabIndex = 3;
-            this.btn_tonkho.Text = "Tồn kho";
-            this.btn_tonkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_tonkho.UseVisualStyleBackColor = true;
-            this.btn_tonkho.Click += new System.EventHandler(this.btn_tonkho_Click);
-            // 
-            // btn_thongke
-            // 
-            this.btn_thongke.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_thongke.FlatAppearance.BorderSize = 0;
-            this.btn_thongke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_thongke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_thongke.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_thongke.Image = ((System.Drawing.Image)(resources.GetObject("btn_thongke.Image")));
-            this.btn_thongke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_thongke.Location = new System.Drawing.Point(0, 320);
-            this.btn_thongke.Name = "btn_thongke";
-            this.btn_thongke.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_thongke.Size = new System.Drawing.Size(200, 60);
-            this.btn_thongke.TabIndex = 4;
-            this.btn_thongke.Text = "Thống kê";
-            this.btn_thongke.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_thongke.UseVisualStyleBackColor = true;
-            this.btn_thongke.Click += new System.EventHandler(this.btn_thongke_Click);
+            this.btn_dx.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btn_dx.FlatAppearance.BorderSize = 0;
+            this.btn_dx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dx.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_dx.Image = ((System.Drawing.Image)(resources.GetObject("btn_dx.Image")));
+            this.btn_dx.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_dx.Location = new System.Drawing.Point(0, 541);
+            this.btn_dx.Name = "btn_dx";
+            this.btn_dx.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_dx.Size = new System.Drawing.Size(200, 60);
+            this.btn_dx.TabIndex = 6;
+            this.btn_dx.Text = "Đăng xuất";
+            this.btn_dx.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_dx.UseVisualStyleBackColor = true;
             // 
             // btn_sanpham
             // 
@@ -186,23 +100,109 @@ namespace doanwinform
             this.btn_sanpham.UseVisualStyleBackColor = true;
             this.btn_sanpham.Click += new System.EventHandler(this.btn_sanpham_Click);
             // 
-            // btn_dx
+            // btn_thongke
             // 
-            this.btn_dx.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btn_dx.FlatAppearance.BorderSize = 0;
-            this.btn_dx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_dx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_dx.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_dx.Image = ((System.Drawing.Image)(resources.GetObject("btn_dx.Image")));
-            this.btn_dx.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_dx.Location = new System.Drawing.Point(0, 541);
-            this.btn_dx.Name = "btn_dx";
-            this.btn_dx.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_dx.Size = new System.Drawing.Size(200, 60);
-            this.btn_dx.TabIndex = 6;
-            this.btn_dx.Text = "Đăng xuất";
-            this.btn_dx.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_dx.UseVisualStyleBackColor = true;
+            this.btn_thongke.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_thongke.FlatAppearance.BorderSize = 0;
+            this.btn_thongke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_thongke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_thongke.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_thongke.Image = ((System.Drawing.Image)(resources.GetObject("btn_thongke.Image")));
+            this.btn_thongke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_thongke.Location = new System.Drawing.Point(0, 320);
+            this.btn_thongke.Name = "btn_thongke";
+            this.btn_thongke.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_thongke.Size = new System.Drawing.Size(200, 60);
+            this.btn_thongke.TabIndex = 4;
+            this.btn_thongke.Text = "Thống kê";
+            this.btn_thongke.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_thongke.UseVisualStyleBackColor = true;
+            this.btn_thongke.Click += new System.EventHandler(this.btn_thongke_Click);
+            // 
+            // btn_tonkho
+            // 
+            this.btn_tonkho.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_tonkho.FlatAppearance.BorderSize = 0;
+            this.btn_tonkho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tonkho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tonkho.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_tonkho.Image = ((System.Drawing.Image)(resources.GetObject("btn_tonkho.Image")));
+            this.btn_tonkho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_tonkho.Location = new System.Drawing.Point(0, 260);
+            this.btn_tonkho.Name = "btn_tonkho";
+            this.btn_tonkho.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_tonkho.Size = new System.Drawing.Size(200, 60);
+            this.btn_tonkho.TabIndex = 3;
+            this.btn_tonkho.Text = "Tồn kho";
+            this.btn_tonkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_tonkho.UseVisualStyleBackColor = true;
+            this.btn_tonkho.Click += new System.EventHandler(this.btn_tonkho_Click);
+            // 
+            // btn_Nhapkho
+            // 
+            this.btn_Nhapkho.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Nhapkho.FlatAppearance.BorderSize = 0;
+            this.btn_Nhapkho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Nhapkho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Nhapkho.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_Nhapkho.Image = ((System.Drawing.Image)(resources.GetObject("btn_Nhapkho.Image")));
+            this.btn_Nhapkho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Nhapkho.Location = new System.Drawing.Point(0, 200);
+            this.btn_Nhapkho.Name = "btn_Nhapkho";
+            this.btn_Nhapkho.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_Nhapkho.Size = new System.Drawing.Size(200, 60);
+            this.btn_Nhapkho.TabIndex = 2;
+            this.btn_Nhapkho.Text = "Nhập kho";
+            this.btn_Nhapkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Nhapkho.UseVisualStyleBackColor = true;
+            this.btn_Nhapkho.Click += new System.EventHandler(this.btn_Nhapkho_Click);
+            // 
+            // btn_Donhang
+            // 
+            this.btn_Donhang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Donhang.FlatAppearance.BorderSize = 0;
+            this.btn_Donhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Donhang.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_Donhang.Image = ((System.Drawing.Image)(resources.GetObject("btn_Donhang.Image")));
+            this.btn_Donhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Donhang.Location = new System.Drawing.Point(0, 140);
+            this.btn_Donhang.Name = "btn_Donhang";
+            this.btn_Donhang.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btn_Donhang.Size = new System.Drawing.Size(200, 60);
+            this.btn_Donhang.TabIndex = 1;
+            this.btn_Donhang.Text = "Đơn hàng";
+            this.btn_Donhang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Donhang.UseVisualStyleBackColor = true;
+            this.btn_Donhang.Click += new System.EventHandler(this.btn_Donhang_Click);
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 80);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(200, 60);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Trang chủ";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panellogo
+            // 
+            this.panellogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(76)))));
+            this.panellogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panellogo.Location = new System.Drawing.Point(0, 0);
+            this.panellogo.Name = "panellogo";
+            this.panellogo.Size = new System.Drawing.Size(200, 80);
+            this.panellogo.TabIndex = 0;
             // 
             // panelTitle
             // 
@@ -222,7 +222,7 @@ namespace doanwinform
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(460, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 39);
+            this.label1.Size = new System.Drawing.Size(164, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Trang chủ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

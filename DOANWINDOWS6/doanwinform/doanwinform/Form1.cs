@@ -110,7 +110,9 @@ namespace doanwinform
 
         private void btn_sanpham_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new form.donhang(), sender);
+            OpenChildForm(new form.sanpham(), sender);
         }
+
+        
     }
 }

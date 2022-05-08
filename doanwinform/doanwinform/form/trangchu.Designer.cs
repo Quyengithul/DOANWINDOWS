@@ -47,6 +47,11 @@ namespace doanwinform.form
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dg_Thongtin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +84,7 @@ namespace doanwinform.form
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(736, 37);
+            this.label2.Location = new System.Drawing.Point(736, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 17);
             this.label2.TabIndex = 3;
@@ -96,14 +101,14 @@ namespace doanwinform.form
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(839, 37);
+            this.textBox1.Location = new System.Drawing.Point(839, 65);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(839, 116);
+            this.textBox2.Location = new System.Drawing.Point(839, 111);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 6;
@@ -120,7 +125,7 @@ namespace doanwinform.form
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(736, 294);
+            this.label5.Location = new System.Drawing.Point(736, 280);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 17);
             this.label5.TabIndex = 8;
@@ -144,14 +149,14 @@ namespace doanwinform.form
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(839, 224);
+            this.textBox4.Location = new System.Drawing.Point(839, 222);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 11;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(839, 294);
+            this.textBox5.Location = new System.Drawing.Point(839, 275);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 12;
@@ -159,7 +164,7 @@ namespace doanwinform.form
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(965, 297);
+            this.label7.Location = new System.Drawing.Point(966, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 17);
             this.label7.TabIndex = 13;
@@ -167,44 +172,94 @@ namespace doanwinform.form
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(703, 384);
+            this.button1.Location = new System.Drawing.Point(688, 317);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 40);
             this.button1.TabIndex = 14;
             this.button1.Text = "Thêm ";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(839, 384);
+            this.button2.Location = new System.Drawing.Point(784, 317);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 40);
             this.button2.TabIndex = 15;
+            this.button2.Text = "Sửa";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(968, 384);
+            this.button3.Location = new System.Drawing.Point(881, 317);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 40);
             this.button3.TabIndex = 16;
-            this.button3.Text = "button3";
+            this.button3.Text = "Xóa";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1102, 384);
+            this.button4.Location = new System.Drawing.Point(973, 317);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 40);
             this.button4.TabIndex = 17;
-            this.button4.Text = "button4";
+            this.button4.Text = "Lưu";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(684, 363);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(367, 64);
+            this.button5.TabIndex = 18;
+            this.button5.Text = "Thanh toán";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(882, 442);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 30);
+            this.button6.TabIndex = 19;
+            this.button6.Text = "Hủy hđ";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(975, 442);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 30);
+            this.button7.TabIndex = 20;
+            this.button7.Text = "Thoát";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(174, 425);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(277, 22);
+            this.textBox6.TabIndex = 21;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(47, 425);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(68, 17);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Tổng tiền";
             // 
             // trangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(1189, 631);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -251,5 +306,10 @@ namespace doanwinform.form
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label8;
     }
 }

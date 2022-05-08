@@ -16,5 +16,7 @@ namespace doanwinform.form
         {
             InitializeComponent();
         }
+
+       
     }
 }

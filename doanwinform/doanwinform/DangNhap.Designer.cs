@@ -29,86 +29,103 @@ namespace doanwinform
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.lb_dang_ky = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btn_dang_nhap = new System.Windows.Forms.Button();
+            this.txb_password = new System.Windows.Forms.TextBox();
+            this.txb_username = new System.Windows.Forms.TextBox();
+            this.lb_pass = new System.Windows.Forms.Label();
+            this.lb_username = new System.Windows.Forms.Label();
+            this.lb_tieu_de = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lb_dang_ky
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Đăng nhập";
+            this.lb_dang_ky.AutoSize = true;
+            this.lb_dang_ky.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lb_dang_ky.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_dang_ky.ForeColor = System.Drawing.Color.Blue;
+            this.lb_dang_ky.Location = new System.Drawing.Point(227, 263);
+            this.lb_dang_ky.Name = "lb_dang_ky";
+            this.lb_dang_ky.Size = new System.Drawing.Size(69, 18);
+            this.lb_dang_ky.TabIndex = 24;
+            this.lb_dang_ky.Text = "Đăng ký";
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(128, 101);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Username";
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(46, 263);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(248, 30);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Bạn chưa có tài khoản? ";
             // 
-            // label3
+            // btn_dang_nhap
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(128, 151);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Mật khẩu";
+            this.btn_dang_nhap.Location = new System.Drawing.Point(49, 205);
+            this.btn_dang_nhap.Name = "btn_dang_nhap";
+            this.btn_dang_nhap.Size = new System.Drawing.Size(255, 38);
+            this.btn_dang_nhap.TabIndex = 22;
+            this.btn_dang_nhap.Text = "Đăng nhập";
+            this.btn_dang_nhap.UseVisualStyleBackColor = true;
+            this.btn_dang_nhap.Click += new System.EventHandler(this.btn_dang_nhap_Click);
             // 
-            // textBox1
+            // txb_password
             // 
-            this.textBox1.Location = new System.Drawing.Point(228, 95);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
+            this.txb_password.Location = new System.Drawing.Point(139, 161);
+            this.txb_password.Name = "txb_password";
+            this.txb_password.Size = new System.Drawing.Size(165, 22);
+            this.txb_password.TabIndex = 21;
             // 
-            // textBox2
+            // txb_username
             // 
-            this.textBox2.Location = new System.Drawing.Point(228, 151);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 4;
+            this.txb_username.Location = new System.Drawing.Point(139, 114);
+            this.txb_username.Name = "txb_username";
+            this.txb_username.Size = new System.Drawing.Size(165, 22);
+            this.txb_username.TabIndex = 20;
             // 
-            // button1
+            // lb_pass
             // 
-            this.button1.Location = new System.Drawing.Point(175, 222);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Đăng nhập";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lb_pass.AutoSize = true;
+            this.lb_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pass.Location = new System.Drawing.Point(46, 162);
+            this.lb_pass.Name = "lb_pass";
+            this.lb_pass.Size = new System.Drawing.Size(77, 20);
+            this.lb_pass.TabIndex = 19;
+            this.lb_pass.Text = "Mật khẩu";
             // 
-            // button2
+            // lb_username
             // 
-            this.button2.Location = new System.Drawing.Point(328, 222);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Đăng ký";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lb_username.AutoSize = true;
+            this.lb_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_username.Location = new System.Drawing.Point(46, 114);
+            this.lb_username.Name = "lb_username";
+            this.lb_username.Size = new System.Drawing.Size(86, 20);
+            this.lb_username.TabIndex = 18;
+            this.lb_username.Text = "Username";
+            // 
+            // lb_tieu_de
+            // 
+            this.lb_tieu_de.Font = new System.Drawing.Font("TeamViewer15", 23.4F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lb_tieu_de.Location = new System.Drawing.Point(87, 36);
+            this.lb_tieu_de.Name = "lb_tieu_de";
+            this.lb_tieu_de.Size = new System.Drawing.Size(213, 69);
+            this.lb_tieu_de.TabIndex = 17;
+            this.lb_tieu_de.Text = "Đăng nhập";
             // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 420);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(351, 331);
+            this.Controls.Add(this.lb_dang_ky);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btn_dang_nhap);
+            this.Controls.Add(this.txb_password);
+            this.Controls.Add(this.txb_username);
+            this.Controls.Add(this.lb_pass);
+            this.Controls.Add(this.lb_username);
+            this.Controls.Add(this.lb_tieu_de);
             this.Name = "DangNhap";
             this.Text = "DangNhap";
             this.ResumeLayout(false);
@@ -118,12 +135,13 @@ namespace doanwinform
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lb_dang_ky;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_dang_nhap;
+        private System.Windows.Forms.TextBox txb_password;
+        private System.Windows.Forms.TextBox txb_username;
+        private System.Windows.Forms.Label lb_pass;
+        private System.Windows.Forms.Label lb_username;
+        private System.Windows.Forms.Label lb_tieu_de;
     }
 }

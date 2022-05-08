@@ -30,14 +30,14 @@ namespace doanwinform.form
         private void InitializeComponent()
         {
             this.dgv_Infor = new System.Windows.Forms.DataGridView();
+            this.txt_Search = new System.Windows.Forms.TextBox();
+            this.btn_Reload = new System.Windows.Forms.Button();
+            this.btn_Search = new System.Windows.Forms.Button();
             this.MaDonHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayXuatDon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TongTienThanhToan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txt_Search = new System.Windows.Forms.TextBox();
-            this.btn_Reload = new System.Windows.Forms.Button();
-            this.btn_Search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Infor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,41 +61,6 @@ namespace doanwinform.form
             this.dgv_Infor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgv_Infor.Size = new System.Drawing.Size(1125, 525);
             this.dgv_Infor.TabIndex = 12;
-            // 
-            // MaDonHang
-            // 
-            this.MaDonHang.HeaderText = "Mã đơn hàng";
-            this.MaDonHang.MinimumWidth = 8;
-            this.MaDonHang.Name = "MaDonHang";
-            this.MaDonHang.Width = 150;
-            // 
-            // MaKhachHang
-            // 
-            this.MaKhachHang.HeaderText = "Mã khách hàng";
-            this.MaKhachHang.MinimumWidth = 8;
-            this.MaKhachHang.Name = "MaKhachHang";
-            this.MaKhachHang.Width = 150;
-            // 
-            // HoTen
-            // 
-            this.HoTen.HeaderText = "Họ tên";
-            this.HoTen.MinimumWidth = 8;
-            this.HoTen.Name = "HoTen";
-            this.HoTen.Width = 150;
-            // 
-            // NgayXuatDon
-            // 
-            this.NgayXuatDon.HeaderText = "Ngày xuất đơn";
-            this.NgayXuatDon.MinimumWidth = 8;
-            this.NgayXuatDon.Name = "NgayXuatDon";
-            this.NgayXuatDon.Width = 150;
-            // 
-            // TongTienThanhToan
-            // 
-            this.TongTienThanhToan.HeaderText = "Tổng tiền thanh toán";
-            this.TongTienThanhToan.MinimumWidth = 8;
-            this.TongTienThanhToan.Name = "TongTienThanhToan";
-            this.TongTienThanhToan.Width = 150;
             // 
             // txt_Search
             // 
@@ -130,6 +95,47 @@ namespace doanwinform.form
             this.btn_Search.Size = new System.Drawing.Size(36, 32);
             this.btn_Search.TabIndex = 10;
             this.btn_Search.UseVisualStyleBackColor = false;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
+            // 
+            // MaDonHang
+            // 
+            this.MaDonHang.DataPropertyName = "MaHD";
+            this.MaDonHang.HeaderText = "Mã đơn hàng";
+            this.MaDonHang.MinimumWidth = 8;
+            this.MaDonHang.Name = "MaDonHang";
+            this.MaDonHang.Width = 150;
+            // 
+            // MaKhachHang
+            // 
+            this.MaKhachHang.DataPropertyName = "MaKh";
+            this.MaKhachHang.HeaderText = "Mã khách hàng";
+            this.MaKhachHang.MinimumWidth = 8;
+            this.MaKhachHang.Name = "MaKhachHang";
+            this.MaKhachHang.Width = 150;
+            // 
+            // HoTen
+            // 
+            this.HoTen.DataPropertyName = "TenKh";
+            this.HoTen.HeaderText = "Họ tên";
+            this.HoTen.MinimumWidth = 8;
+            this.HoTen.Name = "HoTen";
+            this.HoTen.Width = 150;
+            // 
+            // NgayXuatDon
+            // 
+            this.NgayXuatDon.DataPropertyName = "TimeHD";
+            this.NgayXuatDon.HeaderText = "Ngày xuất đơn";
+            this.NgayXuatDon.MinimumWidth = 8;
+            this.NgayXuatDon.Name = "NgayXuatDon";
+            this.NgayXuatDon.Width = 150;
+            // 
+            // TongTienThanhToan
+            // 
+            this.TongTienThanhToan.DataPropertyName = "TongTienTT";
+            this.TongTienThanhToan.HeaderText = "Tổng tiền thanh toán";
+            this.TongTienThanhToan.MinimumWidth = 8;
+            this.TongTienThanhToan.Name = "TongTienThanhToan";
+            this.TongTienThanhToan.Width = 150;
             // 
             // donhang
             // 
@@ -153,13 +159,13 @@ namespace doanwinform.form
         #endregion
 
         private System.Windows.Forms.DataGridView dgv_Infor;
+        private System.Windows.Forms.Button btn_Reload;
+        private System.Windows.Forms.Button btn_Search;
+        private System.Windows.Forms.TextBox txt_Search;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaDonHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKhachHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayXuatDon;
         private System.Windows.Forms.DataGridViewTextBoxColumn TongTienThanhToan;
-        private System.Windows.Forms.Button btn_Reload;
-        private System.Windows.Forms.Button btn_Search;
-        private System.Windows.Forms.TextBox txt_Search;
     }
 }

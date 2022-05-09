@@ -63,6 +63,16 @@ namespace doanwinform.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anh_trong {
+            get {
+                object obj = ResourceManager.GetObject("anh_trong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ReloadIcon {
             get {
                 object obj = ResourceManager.GetObject("ReloadIcon", resourceCulture);

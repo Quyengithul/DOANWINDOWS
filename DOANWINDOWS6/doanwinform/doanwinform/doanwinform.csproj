@@ -151,13 +151,7 @@
     <None Include="Resources\ReloadIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pikachu.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-gallery-icon-for-your-project-png-image_1731100.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="IMG\pikachu.jpg" />
+    <None Include="Resources\anh_trong.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
